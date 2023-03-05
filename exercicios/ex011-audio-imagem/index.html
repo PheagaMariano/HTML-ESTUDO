@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Adaptação de imagens para dispositivos diferentes, usaremos o picture</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+
+        <img src="imagens/GRANDE.png" alt="imagem.flexivel">
+
+    </picture>
+
+    <h1>Reprodução de áudio</h1>
+    <p>Agora faremos a reprodução de áudios, usando 'controls'</p>
+
+    <audio src="audio/musica.do.ytb.mp3" controls></audio>
+
+    <h2>Reprodução de Áudio por Outros Formatos</h2>
+    <p>Há também outros gormatos como mp3 e wav <br> Obs:Não funcionará, porque o arquivo não foi convertido</p>
+
+    <audio preload="metadata">
+        <source src="audio/musica.do.ytb.mp3" type="audoo/mpeg">
+        <source src="audio/musica.do.ytb.mp3" type="audio/wav">
+    </audio>
+</body>
+</html>

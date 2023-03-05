@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(203, 252, 178);
+    
+}
+
+h1#principal{
+    text-align: center;
+    color: black;
+    font-weight: normal;
+}
+
+.coadjuvante{
+    color: rgb(255, 8, 8);
+    font-weight: bold;
+}
+
