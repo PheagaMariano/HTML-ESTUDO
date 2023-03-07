@@ -6,11 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagem de Fundo</title>
     <style>
-        div.quadrado{
-            background-color: rgb(255, 255, 255);
+
+        body{
+            background-image: url(Imagens/wallpaper004.jpg);
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+        }
+
+        .q1{
+            background-color: rgba(38, 193, 36, 0.591);
             border: 1.5px solid black;
-            height: 150px;
-            width: 150px;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+        }
+
+        div.q2{
+            background-image: linear-gradient(to bottom, red, yellow);
+            border: 1.5px solid black;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+        }
+
+        .q3{
+            background-image: url(Imagens/pattern001.png);
+            border: 1.5px solid black;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
         }
 
     </style>
@@ -19,9 +43,9 @@
 
     <p>Tem como criar 3 divs usando o comando "div.quadrado", onde o . servirá para distiguir o comando div e sua classe. O * serve para multiplicar ou escolher quantas divs você tem preferência</p>
 
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
+    <div class="q1"></div>
+    <div class="q2"></div>
+    <div class="q3"></div>
 
     
 </body>
