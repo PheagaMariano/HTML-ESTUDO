@@ -17,7 +17,7 @@
 
 html, body{
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(194, 194, 194);
 }
 
 header{
@@ -53,6 +53,10 @@ section{
     padding-bottom: 10vh;
 }
 
+.normal{
+    margin-left: 10px;
+}
+
 .parte1{
     font-weight: bolder;
     font-size: 25px;
@@ -62,23 +66,58 @@ section{
     font-family: var(--fonte02);
 }
 
-.image-pamela{
-    background-image: url(Pasta/imagens/WhatsApp\ Image\ 2023-03-18\ at\ 10.35.22.jpeg);
+.com-fundo{
+    background-image: url(Pasta/imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
 
 div{
-    background-color: rgba(0, 0, 0, 0.685);
-    width: 300px;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 15px;
+    width: 350px;
     color: white;
     font-weight: bolder;
     font-size: 25px;
-    line-height: 2em;
-    margin-left: 20px;
-    margin-top: 40px;
-    font-family: var(--fonte02);
-    border: 3px solid black;
-
+    margin-left: 10px;
 }
+
+.com-fundo2{
+    background-image: url(Pasta/imagens/background002.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Estilos para dispositivos com tela pequena, como smartphones */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    header{
+        min-width: 320px;
+    }
+  }
+  
+  /* Estilos para dispositivos com tela média, como tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para dispositivos com tela grande, como desktops e laptops */
+  @media (min-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
