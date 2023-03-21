@@ -73,6 +73,17 @@ section{
     background-attachment: fixed;
 }
 
+.fundo-pamela{
+    background-image: url(Pasta/imagens/WhatsApp\ Image\ 2023-03-18\ at\ 10.35.22.jpeg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+    width: 350px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
 div{
     background-color: rgba(0, 0, 0, 0.705);
     border-radius: 15px;
