@@ -115,8 +115,13 @@ footer{
     body {
       font-size: 14px;
     }
+    
     header{
         min-width: 320px;
+    }
+
+    .normal{
+        color: black;
     }
   }
   
