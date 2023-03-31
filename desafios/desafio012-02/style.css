@@ -1,5 +1,7 @@
 @charset "UTF - 8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -35,6 +37,12 @@ a:hover{
 section{
     padding: 10vh;
     line-height: 2em;
+    font-family: sriracha, serif;
+    font-size: 1.3em;
+}
+
+section.normal > p{
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -47,10 +55,26 @@ section.image{
     color: white;
 }
 
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 section.image > p{
     background-color: rgba(39, 39, 39, 0.607);
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
+    padding-left: px;
+
 }
 
 footer{
