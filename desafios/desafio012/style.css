@@ -17,7 +17,7 @@
 
 html, body{
     min-height: 100vh;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(93, 75, 149);
 }
 
 header{
@@ -68,14 +68,14 @@ section{
 }
 
 .com-fundo{
-    background-image: url(Pasta/imagens/background001.jpg);
+    background-image: url(https://cdn.awsli.com.br/600x1000/2470/2470063/produto/186959198/3100e6c71e.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
 
-.fundo-pamela{
-    background-image: url(Pasta/imagens/WhatsApp\ Image\ 2023-03-18\ at\ 10.35.22.jpeg);
+.fundo-lav{
+    background-image: url(Pasta/imagens/WhatsApp\ Image\ 2023-07-21\ at\ 18.20.46.jpeg);
     background-size: 100% 100%;
     border-radius: 15px;
     width: 350px;
@@ -96,7 +96,7 @@ div{
 }
 
 .com-fundo2{
-    background-image: url(Pasta/imagens/background002.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQH8Lejge5apJCRPYlilMqGaUivMAGDl-lq1SSKBRXbzH3_V2TiTVC7_OFrqLmWHHi1M4&usqp=CAU);
     background-size: 100% 100%;
     background-attachment: fixed;
     color: black;
