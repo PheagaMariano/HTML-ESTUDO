@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Tags</title>
     <style>
+
+        
+
         body{
             background-color: gray;
             font-family: Arial, Helvetica, sans-serif;
@@ -15,36 +18,53 @@
         }
 
         header{
-            background-color: aliceblue;
-            padding: 10px;
-            margin-bottom: 5px;
-            margin: 10px;
+            background-color: rgb(197, 197, 197);
+            padding-top: 5px;
+            margin-bottom: 30px;
+
         }
 
         h1{
-            text-align: center ;
+            text-align: center;
         }
 
         nav{
-            background-color: rgba(68, 68, 68, 0.68);
-            padding: 2px;
-            box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.427);
+            margin-left: 10px;
+            padding: 3px;
+            
+            
         }
 
         nav > a{
             text-decoration: none;
-            color: white;
+            color: rgb(0, 0, 0);
             font-weight: bolder;
+            margin-bottom: 25px;       
         }
 
         nav > a:hover{
-            color: rgb(13, 0, 255);
             text-decoration: underline;
+        }
+
+        nav a#link-1{
+            margin-left: 5px;
+            display: inline-block;
+        }
+
+        nav a#link-2{
+            margin-left: 10px; 
+
+        }
+
+        nav a#link-3{
+            margin-left: 10px;
+
         }
 
         article{
             background-color: rgb(160, 158, 158);
             padding: 5px;
+            border-radius: 5px;
         }
 
         article > aside{
@@ -62,7 +82,7 @@
 
         footer{
             background-color: black;
-            color: white;
+            color: rgb(255, 255, 255);
             text-align: center;
             padding: 5px;
             margin: 0px;
@@ -83,9 +103,9 @@
     <header>
         <h1>Site Teste</h1>
         <nav>
-            <a href="#">Link</a>
-            <a href="#">Link</a> 
-            <a href="#">Link</a>
+            <a id="link-1" href="#">Home</a>
+            <a id="link-2" href="#">Lista</a> 
+            <a id="link-3" href="#">Sobre</a>
         </nav>
     </header>
     <main>
@@ -103,7 +123,7 @@
 
     </main>
     <footer>
-        <p>Desenvolvido por Pedro Brabo</p>
+        <p>Teste</p>
 
     </footer>
     <div id="bola"></div>
