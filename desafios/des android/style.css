@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(56, 56, 56);
+    color: rgb(241, 241, 241);
+    height: 70px;
+    padding: 20px;
+}
+
+h1#header{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#header > a{
+    color: rgb(238, 73, 7);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.barra-menu{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    left: 50px;
+    top: 12.3px;
+}
+
+.barra{
+    width: 15px;
+    height: 2px;
+    background-color: white;
+}
+
+
+.header-menu, .header-search{
+    display: inline-block;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.header-menu:hover{
+    color: rgb(107, 112, 255);
+}
+
+.header-search:hover{
+    color: rgb(107, 112, 255);
+}
+
+nav{
+    background-color: rgb(78, 78, 78);
+    height: 15px;
+    padding: 20px;
+}
+
+.nav-ultimas, .nav-aplicativos, .nav-celulares, .nav-jogos, .nav-e-sport, .nav-eletrônicos, .nav-informática, .nav-software, .nav-hardware{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 66px;
+    font-weight: bold;
+}
+
+span > a{
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+.nav-ultimas:hover, .nav-aplicativos:hover, .nav-celulares:hover, .nav-jogos:hover, .nav-e-sport:hover, .nav-eletrônicos:hover, .nav-informática:hover, .nav-software:hover, .nav-hardware:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(107, 112, 255);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+}
+
+
+
+
+ /* AUI COMEÇA O CONTEÚDO MAIN, PÓS HEADER E NAV */
+
+
+
+
+
+.main-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: ;
+}
+
