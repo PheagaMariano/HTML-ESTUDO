@@ -152,18 +152,9 @@ section.main-content{
     margin-right: 20vw;
     font-size: 1.25em;
     letter-spacing: -0.5px;
-    position: relative;
 }
 
 section > p.with-photo{
     margin-right: 32vw;
-    float: left;
-    width: 60%;
-    margin-right: 40px;
 }
 
-section > div.image {
-    /* Estilos existentes... */
-    float: right; /* Faz com que a imagem flutue à direita */
-    width: 30%; /* Define a largura da imagem */
-}
