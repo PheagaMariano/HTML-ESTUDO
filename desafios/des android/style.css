@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root{
+    --cor-p-conteudo: rgb(71, 71, 71);
+    --fonte-geral: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -86,16 +91,79 @@ span > a{
 
 
 
- /* AUI COMEÇA O CONTEÚDO MAIN, PÓS HEADER E NAV */
+ /* CONTEÚDO SUB MAIN, PÓS HEADER E NAV */
 
 
 
 
 
-.main-title{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15vw;
-    font-size: 2em;
-    
+main{
+    min-width: 300px;
+    min-height: 1000px;
+
 }
 
+section#initial-content{
+    padding: 40px;
+    margin-left: 15vw;
+}
+
+h1.main-title{
+    font-family: var(--fonte-geral);
+    font-size: 3.5em;
+    margin-top: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+} 
+
+p.subtitle{
+    font-size: 1.3em;
+    font-family: var(--fonte-geral);
+    margin-top: 30px;
+    color: var(--cor-p-conteudo);
+}
+
+p.content-creator{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: var(--fonte-geral);
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+div.break-line{
+    width: 60vw;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* CONTEÚDO MAIN */
+
+
+
+section.main-content{
+    font-family: var(--fonte-geral);
+    color: var(--cor-p-conteudo);
+    line-height: 1.4em;
+    text-align: justify;
+    padding: 40px;
+    margin-left: 15vw;
+    margin-right: 20vw;
+    font-size: 1.25em;
+    letter-spacing: -0.5px;
+    position: relative;
+}
+
+section > p.with-photo{
+    margin-right: 32vw;
+    float: left;
+    width: 60%;
+    margin-right: 40px;
+}
+
+section > div.image {
+    /* Estilos existentes... */
+    float: right; /* Faz com que a imagem flutue à direita */
+    width: 30%; /* Define a largura da imagem */
+}
