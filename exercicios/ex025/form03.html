@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.py" method="get">
+        <p>
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" id="name" required>
+        </p>
+
+        <p>
+            <label for="media">Media:</label>
+            <input type="number" name="amedia" id="media" step="0.1" min="0" max="10" required>
+        </p>
+        
+        <p>
+            <label for="date">Período</label>
+            <input type="date" name="periodo" id="date" required>
+        </p>
+
+        <p>
+            <label for="clock">Horário:</label>
+            <input type="time" name="hora" id="clock" required>
+        </p>
+
+        <input type="submit" value="Enivar">
+    </form>
+</body>
+</html>
