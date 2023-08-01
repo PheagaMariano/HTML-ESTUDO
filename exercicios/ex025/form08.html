@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+output {
+    display: block;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 85%;
+}
+
+</style>
+<body>
+    <form action="cadastro.js" method="get">
+            <div class="teste">
+                <label for="n1">Número 1: </label>
+                <input type="number" name="num1" id="n1" oninput="soma.innerHTML = Number(n1.value) * Number(n2.value)">
+            </div>
+
+        <p>
+            <label for="n2">Número 2:</label>
+            <input type="number" name="num2" id="n2" oninput="soma.innerHTML = Number(n1.value) * Number(n2.value)">
+        </p>
+
+        <p>
+            <label for="soma">Resultado: </label>
+            <output id="soma">?</output>
+        </p>
+
+    </form>
+
+    <script>
+
+    </script>
+</body>
+</html>

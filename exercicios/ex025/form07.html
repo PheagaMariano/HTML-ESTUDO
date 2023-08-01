@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    label[for="ipro"] {
+        margin-left: 20px;
+    }
+    textarea{
+        resize: none;
+    }
+</style>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastrp.py" method="post">
+        <label for="iest">Estado:</label>
+        <select name="state" id="iest">
+            <optgroup label="Região Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP" selected>São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+
+            <optgroup label="Região Sul">
+                <option value="PN">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+        </select>
+
+        <label for="ipro">Profissão:</label>
+        <input type="text" name="prof" id="ipro" list="iprof">
+        <datalist id="iprof">
+            <option>Administrador</option>
+            <option>Contador</option>
+            <option>Desenvolvedor</option>
+        </datalist>
+<p>
+    
+            <label for="imsg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" maxlength="400" placeholder="Precisa de ajuda? Nos contate"></textarea>
+</p>
+        
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -7,34 +7,29 @@
 
         *{}
         /* Estilo para posicionar a bolinha à esquerda */
-        input[type="radio"] {
-            float: left;
-            margin-right: 5px; /* Adicione margem para separar o texto do radio */
-        }
-        input[type="checkbox"]{
-            float: left;
-        }
+       
     </style>
 </head>
 <body>
     <form action="cadastro.py" method="get">
         <fieldset>
             <legend>Dados</legend>
+            <input type="radio" name="isexo" id="msexo">
             <label for="msexo">Masculino</label>
-            <input type="radio" name="isexo" id="msexo"> <br>
-            <label for="fsexo">Feminino</label> 
             <input type="radio" name="isexo" id="fsexo">
+            <label for="fsexo">Feminino</label> 
         </fieldset>
 
         <fieldset>
             <legend>Esportes Favoritos</legend>
-            <label for="ifut">Futebol</label>
-                <input type="checkbox" name="fut" id="ifut"> <br>
-            <label for="ibas">Basquete</label>
-               <input type="checkbox" name="bas" id="ibas"> <br>
-            <label for="ivol">Vôlei</label>
-               <input type="checkbox" name="vol" id="ivol"> <br>
-            
+            <input type="checkbox" name="fut" id="ifut">
+            <label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="bas" id="ibas">
+            <label for="ibas">Basquete</label> <br>
+            <input type="checkbox" name="ten" id="iten">
+            <label for="iten">Tênis</label> <br>
+            <input type="checkbox" name="vol" id="ivol">
+            <label for="ivol">Vôlei</label> 
         </fieldset>
     </form>
 </body>

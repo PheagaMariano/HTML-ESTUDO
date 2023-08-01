@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    label[for="photo"] {
+        display: block;
+        padding-bottom: 20px;
+    }
+</style>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.py" method="post">
+
+        <label for="photo">Escolha uma foto: </label>
+        <input type="file" name="foto" id="photo" accept=".jpg, .png" required> <br>
+
+        <label for="satisfacao">Nível de Satisfação</label>
+        <input type="range" name="sas" id="satisfacao">
+
+    </form>
+
+        <script>
+
+        document.getElementById('photo').addEventListener('change', function () {
+            var fileInput = this;
+            var label = fileInput.nextElementSibling;
+
+            if (fileInput.files.length > 0) {
+                label.textContent = fileInput.files[0].name;
+            } else {
+                label.textContent = "Escolha uma foto:";
+            }
+        });
+
+        </script>
+    
+</body>
+</html>
