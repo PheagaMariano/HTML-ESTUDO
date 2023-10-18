@@ -9,11 +9,21 @@
     *{
         font-family: Arial, Helvetica, sans-serif;
     }
-    label[for="ipro"] {
-        margin-left: 20px;
-    }
+
     textarea{
         resize: none;
+        width: 400px;
+    }
+
+    input:hover, select:hover, textarea:hover{
+        border: 2px solid blue;
+        border-radius: 3px;
+    }
+    input:focus, textarea:focus, select:focus{
+        background-color: darkgrey;
+    }
+    script{
+        margin-top: 400px;
     }
 </style>
 <body>
@@ -32,7 +42,7 @@
                 <option value="SC">Santa Catarina</option>
                 <option value="RS">Rio Grande do Sul</option>
             </optgroup>
-        </select>
+        </select> <br> <br>
 
         <label for="ipro">Profissão:</label>
         <input type="text" name="prof" id="ipro" list="iprof">
@@ -43,12 +53,22 @@
         </datalist>
 <p>
     
-            <label for="imsg">Mensagem</label> <br>
+            <label for="imsg">Mensagem</label> <br> 
             <textarea name="msg" id="imsg" cols="30" rows="10" maxlength="400" placeholder="Precisa de ajuda? Nos contate"></textarea>
 </p>
         
 
         <input type="submit" value="Enviar">
     </form>
+
+    <script>
+       var x = document.write("Testando javascrpit")
+
+       confirm("teste")
+       prompt("teste")
+
+       
+
+    </script>
 </body>
 </html>
