@@ -27,4 +27,6 @@ document.querySelector("form").addEventListener("submit", (e) => {
     timeout = setTimeout(()=> {
       caixaDeMensagem.style.display = 'none'
     }, 2000)
+    var meuAudio = document.getElementById('meuAudio');
+    meuAudio.play()
   }
