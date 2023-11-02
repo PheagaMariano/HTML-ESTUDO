@@ -121,3 +121,11 @@ input {
     box-shadow: 5px 5px 16px -6px rgba(240, 17, 240, 1);
     border-radius: 20px;
   }
+
+ #meu-audio {
+    position: absolute;
+    top: 0;
+    left: -10;
+    z-index: 1;
+  
+ } 

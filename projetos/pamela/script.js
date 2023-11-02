@@ -6,11 +6,11 @@ document.querySelector("form").addEventListener("submit", (e) => {
   function obterMensagem(n) {
     if (n < 0 || n > 50 || isNaN(n)) return "Macaca do Carai, O Numero Deve Ser De 0 A 50!";
     if (n == 0) return "VSF MACACA, eu vou chorar se ficar sabendo que vc colocou 0, Pamy!"
-    if (n <= 10) return "Menos de 11, Que miseria hein kkkkk sfd";
-    if (n <= 20) return "Isso é muito pouco Pamy crl";
-    if (n <= 30) return "Eu acho que pode ser mais, Pamy";
-    if (n <= 49) return "Pode melhorar né Pamy??????";
-    return "Que Fofo kkkkk, mas claramente eu ti gosto mt mais que isso fedorenta, sinto sua falta!";
+    if (n <= 10) return "Menos de 11????, Pedro macaco triste";
+    if (n <= 20) return "Isso é muito pouco Pamy crl, vc tem mais uma chance";
+    if (n <= 30) return ", Pamy";
+    if (n <= 49) return "Passou perto, mas ainda não é isso!!!!";
+    return "Acertou! Que Fofo kkkkk, mas claramente eu ti gosto mt mais que isso fedorenta, sinto sua falta!";
   }
 
   let timeout 
