@@ -5,11 +5,12 @@ document.querySelector("form").addEventListener("submit", (e) => {
 
   function obterMensagem(n) {
     if (n < 0 || n > 50 || isNaN(n)) return "Macaca do Carai, O Numero Deve Ser De 0 A 50!";
-    if (n <= 10) return "VSF MACACA, O Pedro Vai Chorar se Ficar Sabendo Disso, Pamy!";
-    if (n <= 20) return "Isso é muito pouco hein, Pamy :(";
-    if (n <= 30) return "Eu Acho Que Pode Ser Mais, Pamy ";
-    if (n <= 40) return "Pode Melhorar né Pamy??????";
-    return "Que FoFo, Mas Claramente O Pedro Ti Gosta Mais Que Isso Pamy!";
+    if (n == 0) return "VSF MACACA, eu vou chorar se ficar sabendo que vc colocou 0, Pamy!"
+    if (n <= 10) return "Menos de 11, Que miseria hein kkkkk sfd";
+    if (n <= 20) return "Isso é muito pouco Pamy crl";
+    if (n <= 30) return "Eu acho que pode ser mais, Pamy";
+    if (n <= 49) return "Pode melhorar né Pamy??????";
+    return "Que Fofo kkkkk, mas claramente eu ti gosto mt mais que isso fedorenta, sinto sua falta!";
   }
 
   let timeout 
@@ -26,7 +27,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
 
     timeout = setTimeout(()=> {
       caixaDeMensagem.style.display = 'none'
-    }, 2000)
+    }, 6000)
     var meuAudio = document.getElementById('meuAudio');
     meuAudio.play()
   }

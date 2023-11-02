@@ -46,7 +46,7 @@ input {
     justify-content: center;
     flex-direction: column;
     box-shadow: 2px 2px 2px;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
   .caixa form {
@@ -119,4 +119,5 @@ input {
     -webkit-box-shadow: 5px 5px 16px -6px rgba(240, 17, 240, 1);
     -moz-box-shadow: 5px 5px 16px -6px rgba(240, 17, 240, 1);
     box-shadow: 5px 5px 16px -6px rgba(240, 17, 240, 1);
+    border-radius: 20px;
   }
